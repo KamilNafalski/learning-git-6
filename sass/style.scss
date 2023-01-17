@@ -1,13 +1,24 @@
+.navbar {
+    height: auto;
+}
+
 .navbar ul {
     display: flex;
     list-style-type: none;
-    li {
-       padding: 20px;
-       a {
-        text-decoration: none;
-        }
-    }
-  }
+    text-decoration: none;
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
 img {
     position: absolute;
     height: 100%;
@@ -19,43 +30,176 @@ img {
     margin-bottom: 32px;
     position: about;
 }
+
 .row {
     position: relative;
 }
+
 h1 {
-        margin-left: 200px;
-        color: gold;    
-    }
+    margin-left: 200px;
+    color: gold;
+}
 
 h2 {
     color: white;
-    text-align:center;
+    text-align: center;
     padding-top: 200px;
     font-size: 70px;
     font-weight: bold;
-    }
+}
+
 h3 {
     color: white;
-    text-align:center;
+    text-align: center;
     font-size: 70px;
     font-weight: bold;
 }
 
 .btn {
-    background-color: green;
-    border:none;
+    background-color: gold;
+    border: none;
     color: white;
     width: 250px;
     height: 60px;
     border-radius: 5px;
     text-align: center;
-    text-decoration: none; 
+    text-decoration: none;
     display: inline-block;
     margin: 0 auto;
     font-size: 25px;
     font-weight: bold;
-    
 }
-.container {
+
+.btn p {
+    margin-top: 15px;
+}
+
+.services {
+    padding: 100px 0 200px 0;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+    line-height: 0;
+
+}
+
+.services p {
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+
+}
+
+.services i {
+    font-size: 30px;
+    color: gold;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: gold;
+    border-radius: 50%;
+    border: solid;
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.services a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
     position: absolute;
+    margin-left: 130px;
+}
+
+.portfolio {
+    background-color: lightgrey;
+    padding: 0 0 150px 0;
+}
+
+.portfolio p {
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    flex-direction: row;
+}
+
+.card-body {
+    color: black;
+}
+
+.portfolio .row {
+    flex-wrap: nowrap;
+    margin: 0 200px 0 200px;
+}
+
+.card {
+    background-color: white;
+}
+
+h5 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    line-height: 0;
+}
+
+.portfolio .card-body p {
+    color: grey;
+    padding-bottom: 20px;
+    font-size: 15px;
+
+}
+
+.page-footer {
+    padding-bottom: 48px;
+    padding-top: 48px;
+    text-align: center;
+}
+
+.page-footer ul {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+    padding-right: 500px;
+}
+
+.page-footer li {
+    font-size: 0;
+    transition: all 1s;
+    margin: 0 20px 0 20px;
+    text-align: center;
+}
+
+.page-footer i {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;   
+}
+.page-footer .one {
+    background-color: white;
+    color: black;
+    font-size: 15px;   
+}
+.page-footer .copyright {
+    padding-left: 100px;
 }
